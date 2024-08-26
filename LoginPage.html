@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+    
+        <title> Novell Services Login</title>
+        <body>
+           <h1  style="color:black;text-align: center;">Novell Services Login </h1>
+           <form>
+            <label for="fname">Username :</label>
+            <input type="text" id="fname" name="username" required> <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="Password" required> <br> <br> 
+
+            <label for="City of Employment">City of Employment:</label>
+            <input type="text" id="City of Employment" name="City of Employment" required> <br> <br>
+            
+            <label for="web server"> Web server :</label>
+            <select id="web server" name="web server">
+            <option value="Select">---Choose a server---</option>
+            <option value="Server1">Server1</option>
+            <option value="Server2">Server2</option>
+            <option value="Server3">Server3</option>
+            <option value="Server4">Server4</option>
+            </select><br><br>
+
+            <label>Please specify your role:</label><br>
+            <input type="radio" name="role" value="admin">Admin<br>
+            <input type="radio" name="role" value="engineer">Engineer<br>
+            <input type="radio" name="role" value="manager">Manager<br>
+            <input type="radio" name="role" value="guest">Guest<br><br>
+
+            <label>Single Sign-on to the following:</label><br>
+            <input type="checkbox" name="sign in" value="mail">Mail<br>
+            <input type="checkbox" name="sign in" value="payroll">Payroll<br>
+            <input type="checkbox" name="sign in" value="self-service">Self-service<br><br>
+            
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+
+
+
+
+           </form>
+
+           
+        </body>
+    </head>
+</html>
